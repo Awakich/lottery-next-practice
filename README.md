@@ -1,1 +1,1 @@
-# snap-practice-redux
+# lottery-next-practice
