@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .stats{
+        @apply bg-[#091f1c] text-white p-4 rounded-md flex-1 border-[#004337] border-2
+    }
+
+    .stats-container{
+        @apply bg-[#091f1c] p-5 rounded-lg border border-[#004337] flex-1
+    }
+}
