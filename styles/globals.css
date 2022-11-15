@@ -8,6 +8,18 @@
     }
 
     .stats-container{
-        @apply bg-[#091f1c] p-5 rounded-lg border border-[#004337] flex-1
+        @apply bg-[#091f1c] p-5 rounded-lg border border-[#004337]
+    }
+
+    .countdown{
+        @apply p-8 text-5xl text-center text-white rounded-lg lg:min-w-[150px] bg-[#013f34]
+    }
+
+    .countdown-label{
+        @apply text-center text-white uppercase text-sm pt-4 
+    }
+
+    .admin_button{
+        @apply p-2 flex-1 rounded-md bg-[#091f1c] border-[#004337] border-2 hover:bg-emerald-500/50
     }
 }
